@@ -29,15 +29,18 @@ a {
     background: transparent;
     border-radius: 50px;
     padding: 10px;
-    height: 100%;
+    height: 90%;
     width: 100%;
     gap: 10px;
     border-style: initial;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-top: 14px;
 }
 
 .searchimg {
-    color: red;
+    margin-top: 5px;
 }
 
 .searchtext {
@@ -56,6 +59,7 @@ a {
 }
 
 .filtersbutton {
+    margin-top: 5px;
     display: flex;
     background: transparent;
     border-radius: 1000px;
@@ -63,5 +67,7 @@ a {
     align-items: center;
     height: 40px;
     width: 40px;
-    border-color: grey;
+    border-style:double;
+    border-color: lightgrey;
+    
 }
