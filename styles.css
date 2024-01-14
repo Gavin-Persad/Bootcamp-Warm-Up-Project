@@ -73,3 +73,16 @@ a {
     border-color: lightgrey;
     
 }
+
+.categories {
+    justify-content: flex-start;
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    overflow: scroll;
+
+}
+
+.divlist {
+    display: flex;
+    flex-direction:row;
+}
