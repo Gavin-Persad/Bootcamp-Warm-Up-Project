@@ -15,7 +15,41 @@ ul {
 
 a {
     text-decoration: none;
-    Color: grey
+    Color: grey;
 }
 
+.searchfilter {
+    display: flex;
+    justify-content:space-around;
+}
 
+.searchbutton {
+    display: flex;
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    
+    
+}
+
+.searchimg {
+    align-self: flex-start;
+}
+
+.searchtext {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.filtersbutton {
+    display: flex;
+    background: transparent;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    border-color: lightgrey;
+}
