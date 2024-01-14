@@ -88,3 +88,18 @@ a {
     text-align: center;
 }
 
+.listingslist {
+    display: grid;
+    background: transparent;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.listingslist img {
+    height: 450px;
+    width: 450px;
+    border-radius: 25px;
+
+}
+
+
