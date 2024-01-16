@@ -105,25 +105,26 @@ a {
 }
 
 .location {
-    Color: red;
+    color: black;
+    
 }
 
 .star {
-    color: orange;
+    color: black;
 }
 
 .rating {
-    color:yellow;
+
 }
 
 .host {
-    color: green;
+
 }
 
 .date {
-    color: blue;
+
 }
 
 .price {
-    color:purple;
+    color: black;
 }
