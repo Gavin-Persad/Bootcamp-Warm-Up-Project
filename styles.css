@@ -92,14 +92,38 @@ a {
     display: grid;
     background: transparent;
     padding-right: 24px;
-    padding-left: 24px;
-}
+    padding-left: 48px;
+    font-size: 14px;
+    font-weight: 400;
+    }
 
 .listingslist img {
-    height: 450px;
-    width: 450px;
+    height: 470.5px;
+    width: 490px;
     border-radius: 25px;
 
 }
 
+.location {
+    Color: red;
+}
 
+.star {
+    color: orange;
+}
+
+.rating {
+    color:yellow;
+}
+
+.host {
+    color: green;
+}
+
+.date {
+    color: blue;
+}
+
+.price {
+    color:purple;
+}
