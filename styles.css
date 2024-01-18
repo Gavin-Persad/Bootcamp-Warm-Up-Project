@@ -88,3 +88,57 @@ a {
     text-align: center;
 }
 
+.listingslist {
+    display: grid;
+    background: transparent;
+    padding-right: 24px;
+    padding-left: 48px;
+    font-size: 14px;
+    font-weight: 400;
+    row-gap: 10px;
+    }
+
+.listingslist img {
+    height: 470.5px;
+    width: 490px;
+    border-radius: 25px;
+}
+
+.listtext {
+    display: grid;
+    grid-template-rows: 19px, 19px, 19px, 25px;
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.location {
+    color: black;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2; 
+}
+
+.star {
+    color: black;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2; 
+}
+
+.rating {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2; 
+}
+
+.host {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3; 
+}
+
+.date {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4; 
+}
+
+.price {
+    color: black;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5; 
+}
