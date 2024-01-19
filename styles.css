@@ -165,3 +165,18 @@ a {
     width: 30%;
     gap: 10px;
 }
+
+.pagefoot {
+    background-color: lightgray;
+    display: block;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    line-height: 26px;
+    letter-spacing: -0.22px;
+    color: black;
+}
