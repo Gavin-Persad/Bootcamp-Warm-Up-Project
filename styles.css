@@ -167,7 +167,7 @@ a {
 }
 
 .pagefoot {
-    background-color: lightgray;
+    background-color: rgb(236, 234, 234);
     display: block;
 }
 
@@ -179,4 +179,20 @@ h2 {
     line-height: 26px;
     letter-spacing: -0.22px;
     color: black;
+}
+
+.footcatscroll {
+    padding: 12px;
+}
+
+.scroll1 {
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+}
+
+.scroll2 {
+    padding:10px;
+    border: none;
+    background: none;
 }
