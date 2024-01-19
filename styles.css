@@ -75,24 +75,18 @@ a {
 }
 
 .divlist {
-    padding-inline-start: 24px;
-    padding-inline-end: 24px;
     display: grid;
     grid-auto-flow: column;
     overflow-x: auto;
     overflow-y:auto;
-    scroll-padding-inline-start: 24px;
-    scroll-padding-inline-end: 24px;
-    padding: 24px;
-    gap:10px;
     text-align: center;
 }
 
 .listingslist {
     display: grid;
     background: transparent;
-    padding-right: 24px;
-    padding-left: 48px;
+    padding-right: 48px;
+    padding-left: 24px;
     font-size: 14px;
     font-weight: 400;
     row-gap: 10px;
@@ -128,10 +122,6 @@ a {
 
 }
 
-.rating {
-
-}
-
 .host {
     grid-column: 1 / 2;
     grid-row: 2 / 3; 
@@ -146,4 +136,32 @@ a {
     color: black;
     grid-column: 1 / 2;
     grid-row: 4 / 5; 
+}
+
+.listclose {
+    display: grid;
+
+}
+
+.contlist {
+    display: block;
+    text-align: center;
+    margin-top: 56px;
+    font-size: 1.125rem;
+    color: black;
+
+}
+
+.showmore {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 33%;
+    display: block;
+    text-align: center;
+    color: white;
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    gap: 10px;
 }
