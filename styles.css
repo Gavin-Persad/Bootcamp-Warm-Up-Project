@@ -107,7 +107,7 @@ a {
 .listtext {
     display: grid;
     grid-template-rows: 19px, 19px, 19px, 25px;
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr, 1fr);
 }
 
 .location {
@@ -116,15 +116,20 @@ a {
     grid-row: 1 / 2; 
 }
 
-.star {
-    color: black;
+.starrating {
+    display: flex;
+    justify-content: end;
     grid-column: 2 / 3;
     grid-row: 1 / 2; 
 }
 
+.star {
+    color: black;
+
+}
+
 .rating {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2; 
+
 }
 
 .host {
