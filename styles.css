@@ -196,3 +196,57 @@ h2 {
     border: none;
     background: none;
 }
+
+.footersuggestions {
+
+}
+
+.footsugg {
+    display: grid;
+    grid-template-columns: 191px, 191px;
+    grid-template-rows: 19px, 19px, 19px, 19px;
+    column-gap: 8px;
+    row-gap: 24px;
+    padding: 10px;
+    
+}
+
+.sugg1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2; 
+}
+
+.sugg2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3; 
+}
+
+.sugg3 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4; 
+}
+
+.sugg4 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5; 
+}
+
+.sugg5 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2; 
+}
+
+.sugg6 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3; 
+}
+
+.sugg7 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4; 
+}
+
+.sugg8 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5; 
+}
