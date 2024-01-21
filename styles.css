@@ -75,24 +75,18 @@ a {
 }
 
 .divlist {
-    padding-inline-start: 24px;
-    padding-inline-end: 24px;
     display: grid;
     grid-auto-flow: column;
     overflow-x: auto;
     overflow-y:auto;
-    scroll-padding-inline-start: 24px;
-    scroll-padding-inline-end: 24px;
-    padding: 24px;
-    gap:10px;
     text-align: center;
 }
 
 .listingslist {
     display: grid;
     background: transparent;
-    padding-right: 24px;
-    padding-left: 48px;
+    padding-right: 48px;
+    padding-left: 24px;
     font-size: 14px;
     font-weight: 400;
     row-gap: 10px;
@@ -107,7 +101,7 @@ a {
 .listtext {
     display: grid;
     grid-template-rows: 19px, 19px, 19px, 25px;
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr, 1fr);
 }
 
 .location {
@@ -116,15 +110,16 @@ a {
     grid-row: 1 / 2; 
 }
 
-.star {
-    color: black;
+.starrating {
+    display: flex;
+    justify-content: end;
     grid-column: 2 / 3;
     grid-row: 1 / 2; 
 }
 
-.rating {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2; 
+.star {
+    color: black;
+
 }
 
 .host {
@@ -141,4 +136,177 @@ a {
     color: black;
     grid-column: 1 / 2;
     grid-row: 4 / 5; 
+}
+
+.listclose {
+    display: grid;
+
+}
+
+.contlist {
+    display: block;
+    text-align: center;
+    margin-top: 56px;
+    font-size: 1.125rem;
+    color: black;
+
+}
+
+.showmore {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 33%;
+    display: block;
+    text-align: center;
+    color: white;
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    gap: 10px;
+}
+
+.pagefoot {
+    background-color: rgb(236, 234, 234);
+}
+
+    h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    line-height: 26px;
+    letter-spacing: -0.22px;
+    color: black;
+}
+
+.footcatscroll {
+    padding: 12px;
+}
+
+.scroll1 {
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+}
+
+.scroll2 {
+    padding:10px;
+    border: none;
+    background: none;
+}
+
+.footsugg {
+    display: grid;
+    grid-template-columns: 191px, 191px;
+    grid-template-rows: 19px, 19px, 19px, 19px;
+    column-gap: 100px;
+    row-gap: 50px;
+    margin-left:24px;
+
+}
+
+.sugg1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2; 
+}
+
+.sugg2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3; 
+}
+
+.sugg3 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4; 
+}
+
+.sugg4 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5; 
+}
+
+.sugg5 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2; 
+}
+
+.sugg6 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3; 
+}
+
+.sugg7 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4; 
+}
+
+.sugg8 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;   
+}
+
+h5 {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    line-height: 50px;
+}
+
+.finalfootlist {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    line-height: 50px;
+}
+
+.footspacing {
+    margin-left:24px;
+    margin-bottom: 12px;
+}
+
+.finalfooter {
+    margin-left:24px;
+    margin-bottom: 12px;
+    line-height: 50px;
+    
+}
+
+.langandcurr {
+    display:flex;
+}
+
+.lang {
+    display:flex;
+}
+
+.currency {
+    display:flex;
+    margin-left: 25px;
+}
+
+.disclaim1 {
+    display: flex;
+}
+    
+
+.disclaim2 {
+    display: flex;
+}
+
+
+.dislist1 {
+    margin-right: 25px;
+}
+
+
+.dislist2 {
+    margin-right: 25px;
+}
+
+
+.risefootlist {
+    display: flex;
+    justify-content: space-around;
 }
