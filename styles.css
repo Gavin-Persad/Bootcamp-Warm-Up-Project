@@ -168,10 +168,9 @@ a {
 
 .pagefoot {
     background-color: rgb(236, 234, 234);
-    display: block;
 }
 
-h2 {
+    h2 {
     font-size: 22px;
     font-weight: 600;
     margin-left: 10px;
@@ -201,10 +200,10 @@ h2 {
     display: grid;
     grid-template-columns: 191px, 191px;
     grid-template-rows: 19px, 19px, 19px, 19px;
-    column-gap: 8px;
-    row-gap: 24px;
-    padding: 10px;
-    
+    column-gap: 100px;
+    row-gap: 50px;
+    margin-left:24px;
+
 }
 
 .sugg1 {
@@ -245,4 +244,62 @@ h2 {
 .sugg8 {
     grid-column: 2 / 3;
     grid-row: 4 / 5;   
+}
+
+h5 {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    line-height: 50px;
+}
+
+.finalfootlist {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    line-height: 50px;
+}
+
+.footspacing {
+    margin-left:24px;
+    margin-bottom: 12px;
+}
+
+.finalfooter {
+    margin-left:24px;
+    margin-bottom: 12px;
+    line-height: 50px;
+    
+}
+
+.langandcurr {
+    display:flex;
+
+}
+
+.lang {
+    display:flex;
+
+}
+
+.currency {
+
+}
+
+.finalfoottext {
+
+}
+
+.dis1 {
+
+}
+
+.disclaim1 {
+    display: flex;
+    
+
+.disclaim2 {
+    display: flex;
+
 }
