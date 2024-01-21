@@ -304,3 +304,9 @@ h5 {
 .dislist2 {
     margin-right: 25px;
 }
+
+
+.risefootlist {
+    display: flex;
+    justify-content: space-around;
+}
