@@ -275,31 +275,32 @@ h5 {
 
 .langandcurr {
     display:flex;
-
 }
 
 .lang {
     display:flex;
-
 }
 
 .currency {
-
-}
-
-.finalfoottext {
-
-}
-
-.dis1 {
-
+    display:flex;
+    margin-left: 25px;
 }
 
 .disclaim1 {
     display: flex;
+}
     
 
 .disclaim2 {
     display: flex;
+}
 
+
+.dislist1 {
+    margin-right: 25px;
+}
+
+
+.dislist2 {
+    margin-right: 25px;
 }
