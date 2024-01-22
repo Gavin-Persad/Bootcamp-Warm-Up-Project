@@ -96,6 +96,16 @@ a {
     overflow-x: auto;
     overflow-y:auto;
     text-align: center;
+    grid-template-rows: 99px;
+    gap: 10px;
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+}
+
+.divlist img {
+    transform: scale(0.40);
+    margin-top: -20px;
+    margin-bottom: -25px;
 }
 
 .listingslist {
@@ -106,7 +116,7 @@ a {
     font-size: 14px;
     font-weight: 400;
     row-gap: 10px;
-    }
+}
 
 .listingslist img {
     height: 470.5px;
@@ -135,7 +145,6 @@ a {
 
 .star {
     color: black;
-
 }
 
 .host {
@@ -165,7 +174,6 @@ a {
     margin-top: 56px;
     font-size: 1.125rem;
     color: black;
-
 }
 
 .showmore {
