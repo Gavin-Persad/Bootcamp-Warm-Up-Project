@@ -306,7 +306,8 @@ h5 {
     color: black;
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 12px;
+    margin-top: 24px;
+    margin-bottom: 5px;
     line-height: 50px;
 }
 
@@ -318,7 +319,7 @@ h5 {
 }
 
 .footspacing {
-    margin-left:24px;
+    margin-left: 48px;
     margin-bottom: 12px;
 }
 
@@ -326,11 +327,16 @@ h5 {
     margin-left:24px;
     margin-bottom: 12px;
     line-height: 50px;
+    margin-left: 48px;
+
     
 }
 
 .langandcurr {
+    margin-top: 24px;
     display:flex;
+    font-weight: 600;
+    color: black;
 }
 
 .lang {
@@ -365,4 +371,5 @@ h5 {
 .risefootlist {
     display: flex;
     justify-content: space-around;
+    background: white;
 }
