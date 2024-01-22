@@ -116,12 +116,15 @@ a {
     font-size: 14px;
     font-weight: 400;
     row-gap: 10px;
+    margin-top: 10px;
 }
 
 .listingslist img {
-    height: 470.5px;
-    width: 490px;
+    height: 414px;
+    width: 436px;
     border-radius: 25px;
+    padding-left: 10px;
+
 }
 
 .listtext {
