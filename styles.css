@@ -131,6 +131,12 @@ a {
     display: grid;
     grid-template-rows: 19px, 19px, 19px, 25px;
     grid-template-columns: minmax(0, 1fr, 1fr);
+    margin-top: 10px;
+    margin-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    line-height: 30px;
+    font-size: 20px;
 }
 
 .location {
