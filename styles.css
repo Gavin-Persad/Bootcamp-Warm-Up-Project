@@ -201,34 +201,44 @@ a {
 }
 
 .pagefoot {
+    display: block;
     background-color: rgb(236, 234, 234);
     width: 500px;
+}
+
+.inspiration {
+    color: black;
+    font-size: 25px;
+    line-height: 100px;
+    letter-spacing: 1px;
+    margin-left: 48px;
 }
 
     h2 {
     font-size: 22px;
     font-weight: 600;
     margin-left: 10px;
+    margin-top: 48px;
     margin-bottom: 8px;
     line-height: 26px;
     letter-spacing: -0.22px;
     color: black;
 }
 
-.footcatscroll {
-    padding: 12px;
-}
-
 .scroll1 {
     display: flex;
     flex-direction: row;
     overflow-y: auto;
+    margin-left: 38px;
+    margin-right: 48px;
+    gap: 10px;
 }
 
 .scroll2 {
     padding:10px;
     border: none;
     background: none;
+    font-size: 18px;
 }
 
 .footsugg {
@@ -237,8 +247,14 @@ a {
     grid-template-rows: 19px, 19px, 19px, 19px;
     column-gap: 100px;
     row-gap: 50px;
-    margin-left:24px;
+    margin-left: 48px;
+    margin-right: 48px;
+    font-size: 18px;
+}
 
+.suggloc {
+    Color: black;
+    font-weight: 600;
 }
 
 .sugg1 {
@@ -279,6 +295,11 @@ a {
 .sugg8 {
     grid-column: 2 / 3;
     grid-row: 4 / 5;   
+}
+
+.showmoretext {
+    Color: black;
+    font-weight: 600;
 }
 
 h5 {
