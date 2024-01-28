@@ -7,6 +7,7 @@
 body {
     font-family: Helvetica;
     Color: grey;
+    display: grid;
 }
 
 ul {
@@ -16,6 +17,11 @@ ul {
 a {
     text-decoration: none;
     Color: grey;
+}
+
+.stickytop{
+    position: sticky;
+    top: 0;
 }
 
 .searchfilter {
@@ -369,6 +375,7 @@ h5 {
 
 
 .risefootlist {
+    Width: 500px;
     display: flex;
     justify-content: space-around;
     background: white;
