@@ -334,9 +334,7 @@ h5 {
     margin-left:24px;
     margin-bottom: 12px;
     line-height: 50px;
-    margin-left: 48px;
-
-    
+    margin-left: 48px;    
 }
 
 .langandcurr {
@@ -375,11 +373,12 @@ h5 {
 }
 
 .risefootlist {
-    Width: 500px;
     display: flex;
     justify-content: space-around;
     position: fixed;
     bottom: 0;
-    width: 100%;
     background: white;
+    padding: 10px;
+    padding-top: 14px;
+    width: 100%;
 }
